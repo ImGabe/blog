@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://imgabe.me/</loc>
+    </url>
+    <url>
+        <loc>https://imgabe.me/about/</loc>
+    </url>
+    <url>
+        <loc>https://imgabe.me/hello-world/</loc>
+        <lastmod>2021-05-01T11:11:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://imgabe.me/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://imgabe.me/tags/</loc>
+    </url>
+    <url>
+        <loc>https://imgabe.me/tags/rust/</loc>
+    </url>
+    <url>
+        <loc>https://imgabe.me/tags/sample/</loc>
+    </url>
+</urlset>
