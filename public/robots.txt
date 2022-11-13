@@ -1,3 +1,4 @@
 User-agent: *
+Disallow:
 Allow: /
-Sitemap: https://imgabe.me/sitemap.xml
+Sitemap: https://blog.gabe.tec.br/sitemap.xml

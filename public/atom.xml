@@ -2,19 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>I&#x27;m Gabe</title>
 	<subtitle>My personal blog</subtitle>
-	<link href="https://imgabe.me/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://imgabe.me"/>
+	<link href="https://blog.gabe.tec.br/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://blog.gabe.tec.br"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-05-01T11:11:00+00:00</updated>
-	<id>https://imgabe.me/atom.xml</id>
+	<updated>2022-05-12T15:08:00+00:00</updated>
+	<id>https://blog.gabe.tec.br/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Foobar</title>
+		<published>2022-05-12T15:08:00+00:00</published>
+		<updated>2022-05-12T15:08:00+00:00</updated>
+		<link rel="alternate" href="https://blog.gabe.tec.br/foobar/" type="text/html"/>
+		<id>https://blog.gabe.tec.br/foobar/</id>
+		<content type="html">&lt;p&gt;Foobar.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Hello World</title>
 		<published>2021-05-01T11:11:00+00:00</published>
 		<updated>2021-05-01T11:11:00+00:00</updated>
-		<link href="https://imgabe.me/hello-world/" type="text/html"/>
-		<id>https://imgabe.me/hello-world/</id>
+		<link rel="alternate" href="https://blog.gabe.tec.br/hello-world/" type="text/html"/>
+		<id>https://blog.gabe.tec.br/hello-world/</id>
 		<content type="html">&lt;p&gt;This is the source code of the traditional &lt;em&gt;Hello World&lt;&#x2F;em&gt; program.&lt;&#x2F;p&gt;
-&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#a7adba;&quot;&gt;&#x2F;&#x2F; This is a comment, and is ignored by the compiler
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#eff1f5;color:#4f5b66;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#a7adba;&quot;&gt;&#x2F;&#x2F; This is a comment, and is ignored by the compiler
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a7adba;&quot;&gt;&#x2F;&#x2F; This is the main function
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {

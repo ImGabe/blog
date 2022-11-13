@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.imgabe.me"
+base_url = "https://blog.gabe.tec.br"
 
 # Use the Tale-Zola theme
 theme = "tale-zola"
