@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://blog.gabe.tec.br/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/hello-world/</loc>
+        <lastmod>2021-05-01T11:11:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/novo-comeco/</loc>
+        <lastmod>2024-01-03T00:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/reverse-string-with-emoji/</loc>
+        <lastmod>2021-11-26T00:00:00Z</lastmod>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/tags/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/tags/metas/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/tags/node-js/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/tags/rust/</loc>
+    </url>
+    <url>
+        <loc>https://blog.gabe.tec.br/tags/sample/</loc>
+    </url>
+</urlset>
