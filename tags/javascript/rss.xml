@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>gabe&#x27;s garden 🦦 - javascript</title>
+      <link>https://blog.gabe.tec.br</link>
+      <description>my garden to talk about nixos, rust, golang and some another things</description>
+      <generator>Zola</generator>
+      <language>pt-BR</language>
+      <atom:link href="https://blog.gabe.tec.br/tags/javascript/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Revertendo string com emojis</title>
+          <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/</link>
+          <guid>https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/</guid>
+          <description xml:base="https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/">&lt;p&gt;Quando queremos separar uma string letra por letra ou até mesmo reverter um texto utilizamos o método &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;pt-BR&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;String&#x2F;split&quot;&gt;&lt;code&gt;split()&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;, porém, existem diversos problemas em se utilizar este método, a própria documentação faz um breve comentário sobre &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;pt-BR&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;String&#x2F;split#revertendo_uma_string_usando_split&quot;&gt;reverter uma String usando &lt;code&gt;split(&quot;&quot;)&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; não ser a melhor opção.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

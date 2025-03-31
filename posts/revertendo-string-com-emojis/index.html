@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta name="author" content="gabe">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="gabe&#x27;s garden 🦦">
+  <meta property="og:description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta property="og:image" content="URL da Imagem">
+  <meta property="og:url" content="https:&#x2F;&#x2F;blog.gabe.tec.br">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="gabe&#x27;s garden 🦦">
+  <meta name="twitter:description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta name="twitter:image" content="URL da Imagem">
+
+  <title>gabe&#x27;s garden 🦦</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://blog.gabe.tec.br/main.css">
+
+  
+  <!-- Link para feed RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://blog.gabe.tec.br/rss.xml">
+
+  <!-- Link para feed Atom -->
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://blog.gabe.tec.br/atom.xml">
+
+  
+
+  <!-- KaTeX CSS (for rendering math equations) -->
+  <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+    integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+
+  <!-- KaTeX JS (deferred loading for better performance) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+    integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+    crossorigin="anonymous"></script>
+
+  <!-- KaTeX Auto-render Extension -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // Customized options
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true },
+        ],
+        throwOnError: false, // Do not throw errors for invalid LaTeX
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header">
+  <div class="header-content">
+    <h1>
+      <a href="https://blog.gabe.tec.br/">gabe&#x27;s garden 🦦</a>
+    </h1>
+
+    <nav id="social-navigation" aria-label="Social Media Links">
+      <ul class="social-links">
+        
+        <li>
+          <a href="https:&#x2F;&#x2F;github.com&#x2F;ImGabe&#x2F;blog" aria-label="Visit git">git</a>
+        </li>
+        
+        <li>
+          <a href="&#x2F;rss.xml" aria-label="Visit rss">rss</a>
+        </li>
+        
+        <li>
+          <a href="&#x2F;atom.xml" aria-label="Visit atom">atom</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-content">
+    <nav id="main-navigation" aria-label="Main Navigation">
+      <ul class="navigation-links">
+        
+        <li>
+          <a href="&#x2F;now" aria-label="Go to &#x2F;now">&#x2F;now</a>
+        </li>
+        
+        <li>
+          <a href="&#x2F;posts" aria-label="Go to &#x2F;posts">&#x2F;posts</a>
+        </li>
+        
+      </ul>
+    </nav><nav id="language-selection" aria-label="Language Selection">
+      <ul class="language-links">
+        <li>
+          <a lang="pt-BR" href="https:&#x2F;&#x2F;blog.gabe.tec.br&#x2F;posts&#x2F;revertendo-string-com-emojis&#x2F;">br</a>
+        </li><li>
+          <a lang="en" href="https:&#x2F;&#x2F;blog.gabe.tec.br/en/posts/revertendo-string-com-emojis/">en</a>
+        </li>
+      </ul>
+    </nav></div>
+</header>
+
+
+  <hr>
+
+  <main role="main">
+    
+<article>
+  <header class="post-header">
+    <h1>Revertendo string com emojis</h1>
+    <time datetime="2021-11-26">26 November, 2021</time>
+  </header>
+
+  <section class="tags">
+    
+    
+    <a href="/tags/javascript" class="tag-javascript">#javascript</a>
+    
+    
+  </section>
+
+  
+  <nav class="toc" aria-label="Table of Contents">
+    <details>
+      <summary>Table of Contents</summary>
+      
+      <ul>
+        
+        <li>
+          <a href="https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/#problemas-do-string-prototype-split">Problemas do String.prototype.split(&quot;&quot;)</a>
+          
+        </li>
+        
+        <li>
+          <a href="https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/#tentativas-falhas">Tentativas falhas</a>
+          
+        </li>
+        
+        <li>
+          <a href="https://blog.gabe.tec.br/posts/revertendo-string-com-emojis/#solucao">Solução</a>
+          
+        </li>
+        
+      </ul>
+      
+    </details>
+  </nav>
+  
+
+  <section class="content">
+    <p>Quando queremos separar uma string letra por letra ou até mesmo reverter um texto utilizamos o método <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split"><code>split()</code></a>, porém, existem diversos problemas em se utilizar este método, a própria documentação faz um breve comentário sobre <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split#revertendo_uma_string_usando_split">reverter uma String usando <code>split("")</code></a> não ser a melhor opção.</p>
+<span id="continue-reading"></span><h2 id="problemas-do-string-prototype-split"><a class="zola-anchor" href="#problemas-do-string-prototype-split" aria-label="Anchor link for: problemas-do-string-prototype-split">Problemas do <code>String.prototype.split("")</code></a></h2>
+<p>Ao fazer <code>.split("")</code> a divisão não é feita "letra por letra" por conta da maneira que o Javascript lida com o strings esta divisão pode não ocorrer como o esperado.</p>
+<p>Por exemplo, enquanto este emoji <code>😃</code> é representado por 2 caracteres,  <code>😶‍🌫️</code> esse ocupa 6 caracteres. Isso é:</p>
+<pre data-lang="javascript" style="background-color:#ffffff;color:#323232;" class="language-javascript "><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;a&quot;</span><span>.length
+</span><span style="color:#0086b3;">1
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;😃&quot;</span><span>.length
+</span><span style="color:#0086b3;">2
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;😶‍🌫️&quot;</span><span>.length
+</span><span style="color:#0086b3;">6
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;H̵̙͗ė̴̘l̴̥͒ḷ̶͂o̶̰͝&quot;</span><span>.length
+</span><span style="color:#0086b3;">20
+</span></code></pre>
+<p>E o  resultado de tentar utilizar este método para lidar com simbolos mais complexos é esse:</p>
+<pre data-lang="javascript" style="background-color:#ffffff;color:#323232;" class="language-javascript "><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;Rust &amp; Go&quot;</span><span>.</span><span style="color:#62a35c;">split</span><span>(</span><span style="color:#183691;">&quot;&quot;</span><span>)
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">9</span><span>) [ </span><span style="color:#183691;">&quot;R&quot;</span><span>, </span><span style="color:#183691;">&quot;u&quot;</span><span>, </span><span style="color:#183691;">&quot;s&quot;</span><span>, </span><span style="color:#183691;">&quot;t&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;&amp;&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;G&quot;</span><span>, </span><span style="color:#183691;">&quot;o&quot; </span><span>]
+</span><span>
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;𝟘𝟙𝟚𝟛&quot;</span><span>.</span><span style="color:#62a35c;">split</span><span>(</span><span style="color:#183691;">&#39;&#39;</span><span>)
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">8</span><span>) [ </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud835</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udfd8</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud835</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udfd9</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud835</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udfda</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud835</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udfdb</span><span style="color:#183691;">&quot; </span><span>]
+</span><span>
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&#39;🦀 Rust &amp; 🐹 Go&#39;</span><span>.</span><span style="color:#62a35c;">split</span><span>(</span><span style="color:#183691;">&#39;&#39;</span><span>)
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">15</span><span>) [ </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud83e</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udd80</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;R&quot;</span><span>, </span><span style="color:#183691;">&quot;u&quot;</span><span>, </span><span style="color:#183691;">&quot;s&quot;</span><span>, </span><span style="color:#183691;">&quot;t&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;&amp;&quot;</span><span>, … ]
+</span><span>
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span style="color:#183691;">&quot;😶‍🌫️&quot;</span><span>.</span><span style="color:#62a35c;">split</span><span>(</span><span style="color:#183691;">&#39;&#39;</span><span>)
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">6</span><span>) [ </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud83d</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ude36</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;‍&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\ud83c</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;</span><span style="color:#0086b3;">\udf2b</span><span style="color:#183691;">&quot;</span><span>, </span><span style="color:#183691;">&quot;️&quot; </span><span>]
+</span></code></pre>
+<h2 id="tentativas-falhas"><a class="zola-anchor" href="#tentativas-falhas" aria-label="Anchor link for: tentativas-falhas">Tentativas falhas</a></h2>
+<p>Nenhum desses métodos resolvem o problema de fato e todos retornam os mesmos output. Emojis compostos <code>[ "😶‍🌫️", "🏳️‍🌈", ...]</code> ainda não serão divididos corretamente.</p>
+<ul>
+<li>Spread syntax (<code>...</code>)</li>
+</ul>
+<p>Utilizar o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax">spread operator (<code>...</code>)</a> na String dentro de um array.</p>
+<pre data-lang="javascript" style="background-color:#ffffff;color:#323232;" class="language-javascript "><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span>[</span><span style="font-weight:bold;color:#a71d5d;">...</span><span style="color:#183691;">&quot;🦀 Rust &amp; 🐹 Go&quot;</span><span>]
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">13</span><span>) [ </span><span style="color:#183691;">&quot;🦀&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;R&quot;</span><span>, </span><span style="color:#183691;">&quot;u&quot;</span><span>, </span><span style="color:#183691;">&quot;s&quot;</span><span>, </span><span style="color:#183691;">&quot;t&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;&amp;&quot;</span><span>, </span><span style="color:#183691;">&quot; &quot;</span><span>, </span><span style="color:#183691;">&quot;🐹&quot;</span><span>, … ]
+</span><span>
+</span><span style="font-weight:bold;color:#a71d5d;">&gt; </span><span>[</span><span style="font-weight:bold;color:#a71d5d;">...</span><span style="color:#183691;">&quot;😶‍🌫️&quot;</span><span>]
+</span><span style="color:#0086b3;">Array</span><span>(</span><span style="color:#0086b3;">4</span><span>) [ </span><span style="color:#183691;">&quot;😶&quot;</span><span>, </span><span style="color:#183691;">&quot;‍&quot;</span><span>, </span><span style="color:#183691;">&quot;🌫&quot;</span><span>, </span><span style="color:#183691;">&quot;️&quot; </span><span>]
+</span></code></pre>
+<ul>
+<li><code>Array.from</code></li>
+</ul>
+<p>Nesse método o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/from"><code>Array.from</code></a> te permite transformar a string em um array.</p>
+<ul>
+<li>RegExp <code>u</code> flag<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split"><code>String.prototype.split(" ")</code></a></li>
+</ul>
+<p>Nesse método é utilizado <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp</a>, não diria ser uma boa escolha pela legibilidade e compressão do código.</p>
+<ul>
+<li>Reduce method</li>
+</ul>
+<p>Nesse método, por conta do <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of"><code>for...of</code></a>, é necessário criar uma variável para armazenar os valores.</p>
+<h2 id="solucao"><a class="zola-anchor" href="#solucao" aria-label="Anchor link for: solucao">Solução</a></h2>
+<p>A solução recente que encontrei com um amigo é utilizando o <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter">Intl.Segmenter()</a>. Que server para padronizar datas e textos de acordo com o local, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter#basic_usage_and_difference_from_string.prototype.split">permitindo obter grafemas, palavras ou sentenças de forma precisa</a>.</p>
+<ul>
+<li>Generator</li>
+</ul>
+<pre data-lang="javascript" style="background-color:#ffffff;color:#323232;" class="language-javascript "><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold;color:#a71d5d;">function* </span><span style="font-weight:bold;color:#795da3;">splitEmoji</span><span>(s) { 
+</span><span>  </span><span style="font-weight:bold;color:#a71d5d;">for </span><span>(</span><span style="font-weight:bold;color:#a71d5d;">const </span><span style="color:#0086b3;">ch </span><span style="font-weight:bold;color:#a71d5d;">of new </span><span>Intl.Segmenter().</span><span style="font-weight:bold;color:#795da3;">segment</span><span>(s)) 
+</span><span>    </span><span style="font-weight:bold;color:#a71d5d;">yield </span><span>ch.segment;
+</span><span>}
+</span><span>
+</span><span style="color:#0086b3;">console</span><span>.</span><span style="color:#62a35c;">log</span><span>([</span><span style="font-weight:bold;color:#a71d5d;">...</span><span style="font-weight:bold;color:#795da3;">splitEmoji</span><span>(</span><span style="color:#183691;">&#39;😶‍🌫️ 🏁&#39;</span><span>)].</span><span style="color:#62a35c;">reverse</span><span>()) </span><span style="font-style:italic;color:#969896;">// [&#39;🏁&#39;, &#39; &#39;, &#39;😶‍🌫️&#39;]
+</span><span style="color:#0086b3;">console</span><span>.</span><span style="color:#62a35c;">log</span><span>([</span><span style="font-weight:bold;color:#a71d5d;">...</span><span style="font-weight:bold;color:#795da3;">splitEmoji</span><span>(</span><span style="color:#183691;">&#39;👨‍👨‍👧‍👦 🇧🇷&#39;</span><span>)].</span><span style="color:#62a35c;">reverse</span><span>()) </span><span style="font-style:italic;color:#969896;">// [&#39;🇧🇷&#39;, &#39; &#39;, &#39;👨‍👨‍👧‍👦&#39;]
+</span></code></pre>
+<ul>
+<li>Spread Operator and Array.from</li>
+</ul>
+<pre data-lang="javascript" style="background-color:#ffffff;color:#323232;" class="language-javascript "><code class="language-javascript" data-lang="javascript"><span style="font-weight:bold;color:#a71d5d;">const </span><span style="color:#0086b3;">segmenter </span><span style="font-weight:bold;color:#a71d5d;">= new </span><span>Intl.Segmenter()
+</span><span>
+</span><span style="color:#0086b3;">console</span><span>.</span><span style="color:#62a35c;">log</span><span>([</span><span style="font-weight:bold;color:#a71d5d;">...</span><span>segmenter.</span><span style="font-weight:bold;color:#795da3;">segment</span><span>(</span><span style="color:#183691;">&#39;😶‍🌫️ 🏁&#39;</span><span>)].</span><span style="font-weight:bold;color:#795da3;">map</span><span>(({ segment }) </span><span style="font-weight:bold;color:#a71d5d;">=&gt; </span><span>segment).</span><span style="color:#62a35c;">reverse</span><span>())
+</span><span style="font-style:italic;color:#969896;">// [&#39;🏁&#39;, &#39; &#39;, &#39;😶‍🌫️&#39;]
+</span><span>
+</span><span style="color:#0086b3;">console</span><span>.</span><span style="color:#62a35c;">log</span><span>(</span><span style="color:#0086b3;">Array</span><span>.</span><span style="font-weight:bold;color:#795da3;">from</span><span>(segmenter.</span><span style="font-weight:bold;color:#795da3;">segment</span><span>(</span><span style="color:#183691;">&#39;👨‍👨‍👧‍👦 🇧🇷&#39;</span><span>)).</span><span style="font-weight:bold;color:#795da3;">map</span><span>(({ segment }) </span><span style="font-weight:bold;color:#a71d5d;">=&gt; </span><span>segment).</span><span style="color:#62a35c;">reverse</span><span>())
+</span><span style="font-style:italic;color:#969896;">// [&#39;🇧🇷&#39;, &#39; &#39;, &#39;👨‍👨‍👧‍👦&#39;]
+</span></code></pre>
+
+  </section>
+</article>
+
+  </main>
+
+  <hr>
+
+  <footer id="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Gabe's Garden.</p>
+  </div>
+</footer>
+</body>
+
+</html>
