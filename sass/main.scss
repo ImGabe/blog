@@ -1,0 +1,87 @@
+@import "reset";
+
+@import "header";
+@import "footer";
+
+@import "blockquote";
+@import "codeblock";
+@import "toc";
+
+@import "blog";
+@import "recipes";
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&family=Merriweather&family=Special+Elite&display=swap');
+
+body {
+  margin: auto;
+  padding: 20px;
+
+  max-width: 750px;
+
+  color: #333;
+  background-color: #f3f3f3;
+
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+
+  line-height: 1.5;
+
+  a {
+    color: #0077cc;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 50%;
+  height: auto;
+}
+
+article, section {
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+header time {
+ font-size: small;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+ li {
+  position: relative;
+}
+
+.header-with-feed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}

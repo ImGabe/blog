@@ -1,88 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>I&#x27;m Gabe</title>
+<html lang="pt-BR">
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Enable responsiveness on mobile devices-->
-        <!-- viewport-fit=cover is to support iPhone X rounded corners and notch in landscape-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <meta name="description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta name="author" content="gabe">
 
-        <!-- Standard meta tags -->
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="gabe&#x27;s garden 🦦">
+  <meta property="og:description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta property="og:image" content="URL da Imagem">
+  <meta property="og:url" content="https:&#x2F;&#x2F;gabe.tec.br">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="gabe&#x27;s garden 🦦">
+  <meta name="twitter:description" content="my garden to talk about nixos, rust, golang and some another things">
+  <meta name="twitter:image" content="URL da Imagem">
+
+  <title>gabe&#x27;s garden 🦦</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://gabe.tec.br/main.css">
+
+  
+  <!-- Link para feed RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://gabe.tec.br/rss.xml">
+
+  <!-- Link para feed Atom -->
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="https://gabe.tec.br/atom.xml">
+
+  
+
+  <!-- KaTeX CSS (for rendering math equations) -->
+  <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+    integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+
+  <!-- KaTeX JS (deferred loading for better performance) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+    integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+    crossorigin="anonymous"></script>
+
+  <!-- KaTeX Auto-render Extension -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // Customized options
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true },
+        ],
+        throwOnError: false, // Do not throw errors for invalid LaTeX
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header id="header">
+  <div class="header-content">
+    <h1>
+      <a href="https://gabe.tec.br/">gabe&#x27;s garden 🦦</a>
+    </h1>
+
+    <nav id="social-navigation" aria-label="Social Media Links">
+      <ul class="social-links">
         
+        <li>
+          <a href="https:&#x2F;&#x2F;github.com&#x2F;ImGabe&#x2F;blog" aria-label="Visit git">git</a>
+        </li>
         
-
-        <!-- Open Graph Tags -->
-        <meta property="og:site_name" content="I&#x27;m Gabe">
+        <li>
+          <a href="&#x2F;rss.xml" aria-label="Visit rss">rss</a>
+        </li>
         
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://blog.gabe.tec.br">
+        <li>
+          <a href="&#x2F;atom.xml" aria-label="Visit atom">atom</a>
+        </li>
         
+      </ul>
+    </nav>
+  </div>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://blog.gabe.tec.br/main.css">
-
-        <!-- Feeds -->
+  <div class="header-content">
+    <nav id="main-navigation" aria-label="Main Navigation">
+      <ul class="navigation-links">
         
-
-        <!-- Google Analytics -->
+        <li>
+          <a href="&#x2F;now" aria-label="Go to &#x2F;now">&#x2F;now</a>
+        </li>
         
+        <li>
+          <a href="&#x2F;posts" aria-label="Go to &#x2F;posts">&#x2F;posts</a>
+        </li>
+        
+      </ul>
+    </nav></div>
+</header>
 
-        <script>
-            function setTheme() {
-                const time = new Date();
-      
-                const prev = localStorage.getItem('date');
-                const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
-      
-                const now = time.getTime();
-                let sunrise;
-                let sunset;
-      
-                function setBodyClass() {
-                    if (now > sunrise && now < sunset) return;
-                    document.body.classList.add('dark');
-                }
-      
-                if (date !== prev) {
-                    fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
-                        .then(res => res.json())
-                        .then(data => {
-                            sunrise = data.sunrise.split(':').map(Number);
-                            sunset = data.sunset.split(':').map(Number);
-                    })
-                    .catch(() => {
-                        sunrise = [7, 0];
-                        sunset = [19, 0];
-                    })
-                    .finally(() => {
-                        sunrise = time.setHours(sunrise[0], sunrise[1], 0);
-                        sunset = time.setHours(sunset[0], sunset[1], 0);
-                        setBodyClass();
-                        localStorage.setItem('sunrise', sunrise);
-                        localStorage.setItem('sunset', sunset);
-                    });
-                    localStorage.setItem('date', date);
-                } else {
-                    sunrise = Number(localStorage.getItem('sunrise'));
-                    sunset = Number(localStorage.getItem('sunset'));
-                    setBodyClass();
-                }
-            }
-        </script>
-    </head>
+
+  <hr>
+
+  <main role="main">
     
-    <body class="list">
-    
-    <!-- Apply theme -->
-    <script>
-      setTheme();
-    </script>
 
-    
-<div class="not-found">404</div>
+<section>
+  <p>Page not found :(</p>
+</section>
 
-    </body>
+
+  </main>
+
+  <hr>
+
+  <footer id="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Gabe's Garden.</p>
+  </div>
+</footer>
+</body>
+
 </html>

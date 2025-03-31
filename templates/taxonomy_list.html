@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+    <h1>{{ taxonomy.name }}</h1>
+
+    <nav aria-label="Lista de tags do blog">
+        <ul>
+            {% for term in terms %}
+            <li>
+                <a href="{{ term.permalink | safe}}">{{ term.name }}</a> - {{ term.page_count }}
+            </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+</section>
+
+{% endblock content %}

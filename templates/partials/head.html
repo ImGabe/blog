@@ -1,0 +1,66 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="{{ config.description  }}">
+  <meta name="author" content="{{ config.author }}">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:title" content="{{ config.title }}">
+  <meta property="og:description" content="{{ config.description  }}">
+  <meta property="og:image" content="URL da Imagem">
+  <meta property="og:url" content="{{ config.base_url }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ config.title  }}">
+  <meta name="twitter:description" content="{{ config.description  }}">
+  <meta name="twitter:image" content="URL da Imagem">
+
+  <title>{{ config.title }}</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="{{ get_url(path='main.css' ) }}">
+
+  {% block rss %}
+  <!-- Link para feed RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ get_url(path='rss.xml',
+    trailing_slash=false) }}">
+
+  <!-- Link para feed Atom -->
+  <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="{{ get_url(path='atom.xml',
+    trailing_slash=false) }}">
+
+  {% endblock rss %}
+
+  <!-- KaTeX CSS (for rendering math equations) -->
+  <link rel=" stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+    integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+
+  <!-- KaTeX JS (deferred loading for better performance) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+    integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+    crossorigin="anonymous"></script>
+
+  <!-- KaTeX Auto-render Extension -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05"
+    crossorigin="anonymous"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        // Customized options
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+          { left: "\\[", right: "\\]", display: true },
+        ],
+        throwOnError: false, // Do not throw errors for invalid LaTeX
+      });
+    });
+  </script>
+</head>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>gabe&#x27;s garden 🦦 - trilha</title>
+      <link>https://gabe.tec.br</link>
+      <description>my garden to talk about nixos, rust, golang and some another things</description>
+      <generator>Zola</generator>
+      <language>pt-BR</language>
+      <atom:link href="https://gabe.tec.br/tags/trilha/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 09 Mar 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Trilha da Urca</title>
+          <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/trilha-urca/</link>
+          <guid>https://gabe.tec.br/posts/trilha-urca/</guid>
+          <description xml:base="https://gabe.tec.br/posts/trilha-urca/">&lt;p&gt;Fazia bastante tempo que não fazia trilhas, apesar de gostar muito, então estava um pouco despreparado, esqueci o protetor solar, repelente e não levei tanta água. Mas não atrapalhou, acho que levei cerca de 45 min para subir com meu grupo.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;praia-do-flamengo&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#praia-do-flamengo&quot; aria-label=&quot;Anchor link for: praia-do-flamengo&quot;&gt;Praia do flamengo&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;É uma trilha de fácil acesso perto da praia do flamengo, bem tranquila e até movimentada, tem algumas escadas que facilitam o caminho e placas para sinalizar. Pode subir utilizando o bondinho caso, é um pouco caro, mas caso queria ir para algum evento lá no topo é o jeito.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;praia-flamengo.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;praia-flamengo.jpg&quot; alt=&quot;Praia do Flamengo&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Praia do flamengo&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;queria ter passado na praia, mas nem deu tempo :(&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;trilha&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#trilha&quot; aria-label=&quot;Anchor link for: trilha&quot;&gt;Trilha&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Achei bem cuidada e tranquila, vai encontrar alguns gringos, muita gente subindo como se fosse algo que fizesse normalmente e algumas pessoas cansadas atrapalhando o caminho.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;trilha-da-urca.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;trilha-da-urca.jpg&quot; alt=&quot;Trilha da Urca&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trilha da Urca&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Quase escorreguei umas 2~3 vezes enquanto tentava descer rápido, vi um senhor descendo bem depressa e tentei fazer igual... desça com calma que tudo vai dar certo!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pao-de-acucar&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pao-de-acucar&quot; aria-label=&quot;Anchor link for: pao-de-acucar&quot;&gt;Pão de Acuçar&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Fico feliz em ver que estão preservando nossas abelhas!!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;jardim-do-mel.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;jardim-do-mel.jpg&quot; alt=&quot;Jardim do mel&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jardim do  mel&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Uma ótima estrutura, tem um samba&#x2F;pagode maneiro, alguams vezes rola um show, tem algums espaços infantis e locais para comer, um passei muito maneiro para se fazer com familia, amigos ou até mesmo sozinho.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;pao-de-acucar.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;pao-de-acucar.jpg&quot; alt=&quot;Pão de Acuçar&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vista do Pão de Acuçar&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;A vista é bem bonita, mas tudo é muito caro... não recomendo comprar nada lá em cima...&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

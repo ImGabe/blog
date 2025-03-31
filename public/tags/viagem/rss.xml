@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>gabe&#x27;s garden 🦦 - viagem</title>
+      <link>https://gabe.tec.br</link>
+      <description>my garden to talk about nixos, rust, golang and some another things</description>
+      <generator>Zola</generator>
+      <language>pt-BR</language>
+      <atom:link href="https://gabe.tec.br/tags/viagem/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Viagem São Paulo&#x2F;Ribeirão Preto</title>
+          <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/</link>
+          <guid>https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/</guid>
+          <description xml:base="https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/">&lt;p&gt;Minha primeira viagem sozinho foi para São Paulo e Ribeirão Preto, onde encontrei alguns amigos da internet. Estava bastante ansioso, mas fico feliz por ter feito essa viagem e sou grato a todos que tornaram esse momento especial.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>

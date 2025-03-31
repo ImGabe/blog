@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section>
+    <h1>{{ taxonomy.name }} - {{ term.name }}</h1>
+
+    <ul>
+        {% for page in term.pages %}
+        <li>
+            <code>
+                (<time datetime="{{ page.date }}">{{ page.date | date(format="%d.%m.%y") }}</time>)
+            </code>
+            <a href="{{ page.permalink | safe}}">{{ page.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</section>
+
+{% endblock content %}

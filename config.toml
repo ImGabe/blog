@@ -1,32 +1,52 @@
-# The URL the site will be built for
-base_url = "https://blog.gabe.tec.br"
+base_url = "https://gabe.tec.br"
+title = "gabe's garden 🦦"
+author = "gabe"
+description = "my garden to talk about nixos, rust, golang and some another things"
+default_language = "pt-BR"
 
-# Use the Tale-Zola theme
-theme = "zola-paper"
-
-# The basic information about the site
-title = "I'm Gabe"
-description = "My personal blog"
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-# The taxonomies to be rendered for the site and their configuration.
-taxonomies = [
-  {name = "tags", feed = true}, # each tag will have its own feed
-]
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+base_url = "https://gabe.tec.br"
+
 highlight_code = true
-highlight_theme = "base16-ocean-light"
+highlight_theme = "inspired-github"
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
 
 [extra]
-links = [
-  { name = "GitHub", url = "https://github.com/imgabe"},
-  { name = "Twitter", url = "https://twitter.com/im_gxbe"},
+menu = [
+    { name = "/now", url = "/now", weight = 1 },
+    { name = "/posts", url = "/posts", weight = 2 },
 ]
+
+social = [
+    { name = "git", url = "https://github.com/ImGabe/blog", icon = "github" },
+    { name = "rss", url = "/rss.xml", icon = "rss" },
+    { name = "atom", url = "/atom.xml", icon = "atom" },
+]
+
+contacts = [
+    { name = "email", url = "gabrielpmonte@gmail.com" },
+    { name = "github", url = "https://github.com/ImGabe" },
+]
+
+languages = [
+    {name = "br",  code = "pt-BR", url = ""},
+    {name = "en", code = "en", url = "en"},
+]
+
+[languages.en]
+title = "gabe's garden 🦦"
+description = "my garden to talk about nixos, rust, golang and some another things"
+
+taxonomies = [{ name = "tags", feed = true }]

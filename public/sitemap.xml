@@ -1,36 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://blog.gabe.tec.br/</loc>
+        <loc>https://gabe.tec.br/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/hello-world/</loc>
-        <lastmod>2021-05-01T11:11:00+00:00</lastmod>
+        <loc>https://gabe.tec.br/en/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/novo-comeco/</loc>
-        <lastmod>2024-01-03T00:00:00Z</lastmod>
+        <loc>https://gabe.tec.br/en/now/</loc>
+        <lastmod>2024-11-11T11:17:00</lastmod>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/page/1/</loc>
+        <loc>https://gabe.tec.br/en/posts/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/reverse-string-with-emoji/</loc>
-        <lastmod>2021-11-26T00:00:00Z</lastmod>
+        <loc>https://gabe.tec.br/en/posts/problemas-que-nao-sinto-saudades/</loc>
+        <lastmod>2024-11-16</lastmod>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/tags/</loc>
+        <loc>https://gabe.tec.br/en/posts/trilha-urca/</loc>
+        <lastmod>2025-03-09</lastmod>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/tags/metas/</loc>
+        <loc>https://gabe.tec.br/en/tags/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/tags/node-js/</loc>
+        <loc>https://gabe.tec.br/en/tags/hiking/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/tags/rust/</loc>
+        <loc>https://gabe.tec.br/en/tags/linux/</loc>
     </url>
     <url>
-        <loc>https://blog.gabe.tec.br/tags/sample/</loc>
+        <loc>https://gabe.tec.br/en/tags/nix/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/en/tags/nixos/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/now/</loc>
+        <lastmod>2025-03-24T16:00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/posts/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/posts/problemas-que-nao-sinto-saudades/</loc>
+        <lastmod>2024-11-16</lastmod>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/posts/revertendo-string-com-emojis/</loc>
+        <lastmod>2021-11-26</lastmod>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/posts/trilha-urca/</loc>
+        <lastmod>2025-03-09</lastmod>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/</loc>
+        <lastmod>2024-07-28</lastmod>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/javascript/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/linux/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/nix/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/nixos/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/trilha/</loc>
+    </url>
+    <url>
+        <loc>https://gabe.tec.br/tags/viagem/</loc>
     </url>
 </urlset>

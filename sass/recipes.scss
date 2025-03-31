@@ -1,0 +1,146 @@
+$border-color: #dcdcdc;
+$link-color: #0077cc;
+$link-hover-color: #005999;
+$text-color: #333;
+$light-text-color: #555;
+$background-color: #ffffff;
+$highlight-background: #f8f8f8;
+$font-size-large: 1.5em;
+$font-size-small: 0.85em;
+$gap: 20px;
+
+@mixin responsive-font($size) {
+    font-size: $size;
+
+    @media (max-width: 768px) {
+        font-size: $size * 0.9;
+    }
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+    margin: $gap 0;
+}
+
+.recipe-item {
+    border: 1px solid $border-color;
+    margin-bottom: $gap;
+    padding: 15px;
+    background-color: $background-color;
+}
+
+.recipe-link {
+    text-decoration: none;
+
+    .recipe-title {
+        @include responsive-font($font-size-large);
+        margin: 0 0 10px;
+        color: $link-color;
+        font-weight: bold;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $link-hover-color;
+            text-decoration: underline;
+        }
+    }
+}
+
+.recipe-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: $light-text-color;
+
+    p {
+        margin: 0;
+
+        strong {
+            font-weight: bold;
+            color: $text-color;
+        }
+    }
+}
+
+.recipe-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    a {
+        font-size: $font-size-small;
+        text-decoration: none;
+    }
+}
+
+.recipe-header {
+    padding: $gap;
+    background-color: $highlight-background;
+    border-bottom: 2px solid $border-color;
+    margin-bottom: $gap;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        h1 {
+            font-size: 2.2em;
+            color: $text-color;
+            margin: 0;
+        }
+    }
+
+    figure {
+        margin: $gap 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-size: $font-size-small;
+            color: $light-text-color;
+        }
+    }
+}
+
+.recipe-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gap;
+    padding: $gap;
+    background-color: $background-color;
+    border: 1px solid $border-color;
+
+    .recipe-ingredients,
+    .recipe-materials {
+        flex-grow: 1;
+
+        h2 {
+            @include responsive-font($font-size-large);
+            color: $text-color;
+            margin-bottom: 10px;
+        }
+
+        ul,
+        ol {
+            padding-left: $gap;
+            margin-bottom: $gap;
+
+            li {
+                margin-bottom: 5px;
+                font-size: 1em;
+                color: $text-color;
+            }
+        }
+    }
+}

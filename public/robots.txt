@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://blog.gabe.tec.br/sitemap.xml
+Sitemap: https://gabe.tec.br/sitemap.xml

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<header>
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%d %b %Y") }}</time>
+</header>
+
+<section>
+  {{ page.content | safe }}
+</section>
+
+{% endblock content %}

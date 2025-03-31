@@ -1,0 +1,57 @@
+<header id="header">
+  <div class="header-content">
+    <h1>
+      <a href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a>
+    </h1>
+
+    <nav id="social-navigation" aria-label="Social Media Links">
+      <ul class="social-links">
+        {% for social in config.extra.social %}
+        <li>
+          <a href="{{ social.url }}" aria-label="Visit {{ social.name }}">{{ social.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+
+  <div class="header-content">
+    <nav id="main-navigation" aria-label="Main Navigation">
+      <ul class="navigation-links">
+        {% for menu in config.extra.menu %}
+        <li>
+          <a href="{{ menu.url }}" aria-label="Go to {{ menu.name }}">{{ menu.name }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    
+    {%- if current_url -%}
+
+    <nav id="language-selection" aria-label="Language Selection">
+      <ul class="language-links">
+        {% for language in config.extra.languages %}
+
+        {%- if language.code == config.default_language -%}
+        {#- If it does, link to the root path (no language code in URL) -#}
+        <li>
+          <a lang="{{ language.code }}" href="{{ current_url | replace(from='/' ~ lang ~ '/', to = '/') }}">{{ language.name }}</a>
+        </li>
+        {#- Check if the current language is the default language -#}
+        {#- If it is, append the language code to the base URL -#}
+      {%- elif lang == config.default_language -%}
+        <li>
+          <a lang="{{ language.code }}" href="{{ config.base_url }}/{{ language.code }}{{ current_path | default(value="/") | safe }}">{{ language.name }}</a>
+        </li>
+      {%- else -%}
+        {#- If it's not, replace the current language code in the URL with the new one -#}
+        <li>
+          <a lang="{{ language.code }}" href="{{ current_url | replace(from='/' ~ lang ~ '/', to='/' ~ language.code ~ '/') }}">{{ language.name }}</a>
+        </li>
+      {%- endif -%}
+        {% endfor %}
+      </ul>
+    </nav>
+    {%- endif -%}
+  </div>
+</header>

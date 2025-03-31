@@ -1,0 +1,21 @@
+$blockquote-bg: #f9f9f9;
+$blockquote-border: #ddd;
+$blockquote-text-color: #333;
+$blockquote-quote-color: #555;
+$blockquote-padding: 0.5rem;
+$blockquote-margin: 0.5rem 0;
+$blockquote-border-radius: 5px;
+
+blockquote {
+    background-color: $blockquote-bg;
+    border-left: 4px solid $blockquote-border;
+    padding: $blockquote-padding;
+    margin: $blockquote-margin;
+    color: $blockquote-text-color;
+    font-style: italic;
+
+    p {
+        margin: 0 !important;
+        line-height: 1.6;
+    }
+}

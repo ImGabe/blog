@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<header>
+    <h1>{{ section.title }}</h1>
+</header>
+
+<article>
+    {{ section.content | safe }}
+</article>
+
+<section>
+    <header>
+        <h2><a href="{{ current_url ~ 'posts'}}">posts</a></h2>
+    </header>
+    {% set post_section = get_section(path="posts/_index.md", lang=lang) %}
+    
+    <nav aria-label="Lista de postagens do blog">
+        <ul class="post-list">
+          {% for page in post_section.pages %}
+    
+          <li class="post-item">
+            <span class="post-info">
+              <code>
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%d.%m.%y") }}</time>
+              </code>
+    
+              <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            </span>
+    
+            {% if page.taxonomies %}
+            <span class="post-tags">
+              {% for taxonomy, tags in page.taxonomies %}
+              {% for tag in tags %}
+              <a 
+                  href="{{ get_taxonomy_url(kind=taxonomy, name=tag, lang=lang) | safe }}" 
+                  class="tag-{{ tag }}">#{{ tag }}</a>
+                {% if not loop.last %}, {% endif %}
+              {% endfor %}
+              {% endfor %}
+            </span>
+            {% endif %}
+          </li>
+          
+          {% endfor %}
+        </ul>
+      </nav>
+</section>
+
+{% endblock content %}

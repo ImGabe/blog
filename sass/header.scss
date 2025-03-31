@@ -1,0 +1,57 @@
+$background-color: #333;
+$text-color: #fff;
+
+$link-hover-color: #aecaac;
+$link-hover-color-alt: #ccc;
+
+$padding: 20px;
+$gap: 10px;
+
+#header {
+  background-color: $background-color;
+  color: $text-color;
+  padding: $padding;
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      margin: 0;
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+          color: $link-hover-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+#main-navigation,
+#social-navigation,
+#language-selection {
+  .navigation-links,
+  .social-links,
+  .language-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: $gap;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-hover-color-alt;
+      }
+    }
+  }
+}

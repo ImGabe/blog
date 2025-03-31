@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>gabe&#x27;s garden 🦦</title>
+      <link>https://gabe.tec.br</link>
+      <description>my garden to talk about nixos, rust, golang and some another things</description>
+      <generator>Zola</generator>
+      <language>pt-BR</language>
+      <atom:link href="https://gabe.tec.br/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 24 Mar 2025 16:00:00 +0000</lastBuildDate>
+      <item>
+          <title>now</title>
+          <pubDate>Mon, 24 Mar 2025 16:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/now/</link>
+          <guid>https://gabe.tec.br/now/</guid>
+          <description xml:base="https://gabe.tec.br/now/">&lt;h1 id=&quot;vida-pessoal&quot;&gt;vida pessoal&lt;&#x2F;h1&gt;
+&lt;p&gt;Faço Ciência da Computação na UERJ, participo de projeto de iniciação científica &quot;Prato do dia&quot; e busco um estágio.&lt;&#x2F;p&gt;
+&lt;p&gt;Estudando &lt;strong&gt;machine learning&lt;&#x2F;strong&gt; e &lt;strong&gt;flutter&lt;&#x2F;strong&gt; para contribuir nas pesquisas da IC, não conheço muito desses tópicos mas estou achando interessante.&lt;&#x2F;p&gt;
+&lt;p&gt;Vejo bastante filmes, pode acompanhar o que estou assistindo no &lt;a href=&quot;https:&#x2F;&#x2F;letterboxd.com&#x2F;gxbe&#x2F;&quot;&gt;letterboxd&lt;&#x2F;a&gt; e meu gosto musical no &lt;a href=&quot;https:&#x2F;&#x2F;www.last.fm&#x2F;pt&#x2F;user&#x2F;im_gabe&quot;&gt;last.fm&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;projetos-paralelos&quot;&gt;projetos paralelos&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;filminhos.fly.dev&#x2F;&quot;&gt;filminhos&lt;&#x2F;a&gt; - gera uma grade exibindo os filmes mais recentes que você registrou no Letterboxd.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;furoes&#x2F;forco&quot;&gt;forco&lt;&#x2F;a&gt; - implementação básica do jogo da forca em HTML&#x2F;CSS&#x2F;JS.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;imgabe&#x2F;simples&quot;&gt;simples&lt;&#x2F;a&gt; - tema desse blog com zola&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;atualizacoes-do-blog&quot;&gt;atualizações do  blog&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;primeira versão publicada &lt;code&gt;[31.03.2025]&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</description>
+      </item>
+      <item>
+          <title>Trilha da Urca</title>
+          <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/trilha-urca/</link>
+          <guid>https://gabe.tec.br/posts/trilha-urca/</guid>
+          <description xml:base="https://gabe.tec.br/posts/trilha-urca/">&lt;p&gt;Fazia bastante tempo que não fazia trilhas, apesar de gostar muito, então estava um pouco despreparado, esqueci o protetor solar, repelente e não levei tanta água. Mas não atrapalhou, acho que levei cerca de 45 min para subir com meu grupo.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;praia-do-flamengo&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#praia-do-flamengo&quot; aria-label=&quot;Anchor link for: praia-do-flamengo&quot;&gt;Praia do flamengo&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;É uma trilha de fácil acesso perto da praia do flamengo, bem tranquila e até movimentada, tem algumas escadas que facilitam o caminho e placas para sinalizar. Pode subir utilizando o bondinho caso, é um pouco caro, mas caso queria ir para algum evento lá no topo é o jeito.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;praia-flamengo.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;praia-flamengo.jpg&quot; alt=&quot;Praia do Flamengo&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Praia do flamengo&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;queria ter passado na praia, mas nem deu tempo :(&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;trilha&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#trilha&quot; aria-label=&quot;Anchor link for: trilha&quot;&gt;Trilha&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Achei bem cuidada e tranquila, vai encontrar alguns gringos, muita gente subindo como se fosse algo que fizesse normalmente e algumas pessoas cansadas atrapalhando o caminho.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;trilha-da-urca.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;trilha-da-urca.jpg&quot; alt=&quot;Trilha da Urca&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Trilha da Urca&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Quase escorreguei umas 2~3 vezes enquanto tentava descer rápido, vi um senhor descendo bem depressa e tentei fazer igual... desça com calma que tudo vai dar certo!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pao-de-acucar&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#pao-de-acucar&quot; aria-label=&quot;Anchor link for: pao-de-acucar&quot;&gt;Pão de Acuçar&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Fico feliz em ver que estão preservando nossas abelhas!!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;jardim-do-mel.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;jardim-do-mel.jpg&quot; alt=&quot;Jardim do mel&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Jardim do  mel&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Uma ótima estrutura, tem um samba&#x2F;pagode maneiro, alguams vezes rola um show, tem algums espaços infantis e locais para comer, um passei muito maneiro para se fazer com familia, amigos ou até mesmo sozinho.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;pao-de-acucar.jpg&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;gabe.tec.br&#x2F;posts&#x2F;trilha-urca&#x2F;.&#x2F;pao-de-acucar.jpg&quot; alt=&quot;Pão de Acuçar&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vista do Pão de Acuçar&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;A vista é bem bonita, mas tudo é muito caro... não recomendo comprar nada lá em cima...&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Problemas que não sinto saudades</title>
+          <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/problemas-que-nao-sinto-saudades/</link>
+          <guid>https://gabe.tec.br/posts/problemas-que-nao-sinto-saudades/</guid>
+          <description xml:base="https://gabe.tec.br/posts/problemas-que-nao-sinto-saudades/">&lt;h1 id=&quot;relembrando-o-caos-do-apt&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#relembrando-o-caos-do-apt&quot; aria-label=&quot;Anchor link for: relembrando-o-caos-do-apt&quot;&gt;Relembrando o Caos do &lt;code&gt;apt&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Ontem ajudei uma amiga a instalar o Elementary OS em seu notebook. O processo de instalação correu bem até chegarmos à parte de instalação de programas como Docker, algumas IDEs da JetBrains, PostgreSQL e outras ferramentas. Foi então que me lembrei do caos que é gerenciar pacotes em sistemas baseados no &lt;code&gt;apt&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;</description>
+      </item>
+      <item>
+          <title>Viagem São Paulo&#x2F;Ribeirão Preto</title>
+          <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/</link>
+          <guid>https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/</guid>
+          <description xml:base="https://gabe.tec.br/posts/viagem-sao-paulo-ribeirao-preto/">&lt;p&gt;Minha primeira viagem sozinho foi para São Paulo e Ribeirão Preto, onde encontrei alguns amigos da internet. Estava bastante ansioso, mas fico feliz por ter feito essa viagem e sou grato a todos que tornaram esse momento especial.&lt;&#x2F;p&gt;</description>
+      </item>
+      <item>
+          <title>Revertendo string com emojis</title>
+          <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+          <author>gabe</author>
+          <link>https://gabe.tec.br/posts/revertendo-string-com-emojis/</link>
+          <guid>https://gabe.tec.br/posts/revertendo-string-com-emojis/</guid>
+          <description xml:base="https://gabe.tec.br/posts/revertendo-string-com-emojis/">&lt;p&gt;Quando queremos separar uma string letra por letra ou até mesmo reverter um texto utilizamos o método &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;pt-BR&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;String&#x2F;split&quot;&gt;&lt;code&gt;split()&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;, porém, existem diversos problemas em se utilizar este método, a própria documentação faz um breve comentário sobre &lt;a href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;pt-BR&#x2F;docs&#x2F;Web&#x2F;JavaScript&#x2F;Reference&#x2F;Global_Objects&#x2F;String&#x2F;split#revertendo_uma_string_usando_split&quot;&gt;reverter uma String usando &lt;code&gt;split(&quot;&quot;)&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; não ser a melhor opção.&lt;&#x2F;p&gt;</description>
+      </item>
+    </channel>
+</rss>
