@@ -1,4 +1,4 @@
-base_url = "https://gabe.tec.br"
+base_url = "https://blog.gabe.tec.br"
 title = "gabe's garden 🦦"
 author = "gabe"
 description = "my garden to talk about nixos, rust, golang and some another things"
